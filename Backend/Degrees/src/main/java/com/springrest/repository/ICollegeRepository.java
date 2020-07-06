@@ -9,9 +9,9 @@ import java.util.Optional;
 @Repository
 public interface ICollegeRepository extends CrudRepository<college,String> {
 
-    default Optional<college> findById(String College_ID) {
-        return null;
-    }
+    //default Optional<college> findById(String College_ID) {
+        //return null;
+
 }
 
 
