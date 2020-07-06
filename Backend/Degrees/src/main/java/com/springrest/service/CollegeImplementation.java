@@ -1,4 +1,5 @@
 package com.springrest.service;
+import com.springrest.repository.ICollegeRepository;
 import com.springrest.entity.college;
 import com.springrest.exception.BadRequestException;
 import com.springrest.exception.CollegeNotFoundException;
@@ -8,11 +9,12 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
+import com.springrest.*;
 
 @Service
 public class CollegeImplementation implements ICollege {
     @Autowired
-    com.springrest.repository.ICollegeRepository collRepo;
+    ICollegeRepository collRepo;
 
 
     @Override
