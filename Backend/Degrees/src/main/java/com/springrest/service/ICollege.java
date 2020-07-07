@@ -1,19 +1,19 @@
 package com.springrest.service;
 
-import com.springrest.entity.college;
+import com.springrest.entity.College;
 import com.springrest.exception.CollegeNotFoundException;
 
 import java.util.List;
 
 public interface ICollege {
 
-    List<college> GetAllcollege();
+    List<College> GetAllcollege();
 
-    college Findcollege(String College_ID);
+    College Findcollege(String collegeId);
 
-    college Create(college objCollege);
+    College Create(College objCollege);
 
-    college update(String College_ID, college objCollege);
+    College update(String collegeId, College objCollege);
 
-    void Delete(String College_ID) throws CollegeNotFoundException;
+    void Delete(String collegeId) throws CollegeNotFoundException;
 }
