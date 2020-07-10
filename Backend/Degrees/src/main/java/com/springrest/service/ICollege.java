@@ -1,5 +1,4 @@
 package com.springrest.service;
-
 import com.springrest.entity.College;
 import com.springrest.exception.CollegeNotFoundException;
 

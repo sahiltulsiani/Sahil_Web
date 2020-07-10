@@ -11,7 +11,7 @@ public class Degree {
     private String DegreeType;
     private String collegeId;
 
-    public void User() {
+    public void Degree() {
         this.degreeId = UUID.randomUUID().toString();
     }
     public Degree(String DegreeName, String DegreeType) {
@@ -53,7 +53,7 @@ public class Degree {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Degree{" +
                 "Degree_ID='" + degreeId+ '\'' +
                 ",DegreeName='" + DegreeName + '\'' +
                 ",DegreeType='" + DegreeType + '\'' +

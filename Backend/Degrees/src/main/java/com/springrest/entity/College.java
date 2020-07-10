@@ -2,6 +2,7 @@ package com.springrest.entity;
 import javax.persistence.*;
 import java.util.UUID;
 
+
 @Entity
 public class College {
     @Id

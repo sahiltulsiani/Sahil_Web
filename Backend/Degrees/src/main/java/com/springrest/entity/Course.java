@@ -40,7 +40,7 @@ public class Course {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Degree{" +
                 "Course_ID='" + courseId+ '\'' +
                 ",CourseName='" + CourseName + '\'' +
                 "degreeId='" + degreeId + '\'' +'}';

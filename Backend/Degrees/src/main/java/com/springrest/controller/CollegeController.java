@@ -10,6 +10,7 @@ import java.util.List;
 
 
 @RestController
+@CrossOrigin
 @RequestMapping(value = "colleges")
 public class CollegeController {
     @Autowired
